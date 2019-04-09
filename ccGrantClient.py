@@ -4,7 +4,7 @@ from requests.auth import HTTPBasicAuth
 import json
 
 
-oktaInstance = "https://dev-533308.okta.com"
+oktaInstance = "yourOktaInstanceUrl"
 client_id = "yourId"
 client_secret = "yourSecret"
 tokenEndpoint = oktaInstance + "/oauth2/anzSvrIdentifier/v1/token"
